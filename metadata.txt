@@ -1,0 +1,1533 @@
+=== Metadata for 20241208_012209.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20241208_012209.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Compression         |JPEG compression
+Image Length        |3024
+Manufacturer        |samsung
+Orientation         |Top-left
+Date and Time       |2024:12:08 01:22:09
+Y-Resolution        |72
+X-Resolution        |72
+Image Width         |3024
+Model               |SM-N970W
+Software            |N970WVLU8HXE1
+YCbCr Positioning   |Centered
+Resolution Unit     |Inch
+Aperture            |1.16 EV (f/1.5)
+Exif Version        |No EXIF data found for 20241208_012209.jpg
+
+
+=== Metadata for 20241208_012210.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20241208_012210.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Compression         |JPEG compression
+Image Length        |3024
+Manufacturer        |samsung
+Orientation         |Top-left
+Date and Time       |2024:12:08 01:22:10
+Y-Resolution        |72
+X-Resolution        |72
+Image Width         |3024
+Model               |SM-N970W
+Software            |N970WVLU8HXE1
+YCbCr Positioning   |Centered
+Resolution Unit     |Inch
+Aperture            |1.16 EV (f/1.5)
+Exif Version        |No EXIF data found for 20241208_012210.jpg
+
+
+=== Metadata for 20241208_012403.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20241208_012403.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Compression         |JPEG compression
+Image Length        |3024
+Manufacturer        |samsung
+Orientation         |Top-left
+Date and Time       |2024:12:08 01:24:03
+Y-Resolution        |72
+X-Resolution        |72
+Image Width         |3024
+Model               |SM-N970W
+Software            |N970WVLU8HXE1
+YCbCr Positioning   |Centered
+Resolution Unit     |Inch
+Aperture            |1.16 EV (f/1.5)
+Exif Version        |No EXIF data found for 20241208_012403.jpg
+
+
+=== Metadata for 20241208_012405.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20241208_012405.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Compression         |JPEG compression
+Image Length        |3024
+Manufacturer        |samsung
+Orientation         |Top-left
+Date and Time       |2024:12:08 01:24:05
+Y-Resolution        |72
+X-Resolution        |72
+Image Width         |3024
+Model               |SM-N970W
+Software            |N970WVLU8HXE1
+YCbCr Positioning   |Centered
+Resolution Unit     |Inch
+Aperture            |1.16 EV (f/1.5)
+Exif Version        |No EXIF data found for 20241208_012405.jpg
+
+
+=== Metadata for 20241223_070705.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20241223_070705.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Compression         |JPEG compression
+Image Length        |3024
+Manufacturer        |samsung
+Orientation         |Top-left
+Date and Time       |2024:12:23 07:07:05
+Y-Resolution        |72
+X-Resolution        |72
+Image Width         |3024
+Model               |SM-N970W
+Software            |N970WVLU8HXE1
+YCbCr Positioning   |Centered
+Resolution Unit     |Inch
+Aperture            |1.16 EV (f/1.5)
+Exif Version        |No EXIF data found for 20241223_070705.jpg
+
+
+=== Metadata for 20241223_070713.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20241223_070713.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Compression         |JPEG compression
+Image Length        |3024
+Manufacturer        |samsung
+Orientation         |Top-left
+Date and Time       |2024:12:23 07:07:13
+Y-Resolution        |72
+X-Resolution        |72
+Image Width         |3024
+Model               |SM-N970W
+Software            |N970WVLU8HXE1
+YCbCr Positioning   |Centered
+Resolution Unit     |Inch
+Aperture            |1.16 EV (f/1.5)
+Exif Version        |No EXIF data found for 20241223_070713.jpg
+
+
+=== Metadata for 20241223_070717.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20241223_070717.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Compression         |JPEG compression
+Image Length        |3024
+Manufacturer        |samsung
+Orientation         |Top-left
+Date and Time       |2024:12:23 07:07:17
+Y-Resolution        |72
+X-Resolution        |72
+Image Width         |3024
+Model               |SM-N970W
+Software            |N970WVLU8HXE1
+YCbCr Positioning   |Centered
+Resolution Unit     |Inch
+Aperture            |1.16 EV (f/1.5)
+Exif Version        |No EXIF data found for 20241223_070717.jpg
+
+
+=== Metadata for 20250104_160944.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250104_160944.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Compression         |JPEG compression
+Image Length        |3024
+Manufacturer        |samsung
+Orientation         |Top-left
+Date and Time       |2025:01:04 16:09:44
+Y-Resolution        |72
+X-Resolution        |72
+Image Width         |3024
+Model               |SM-N970W
+Software            |N970WVLU8HXE1
+YCbCr Positioning   |Centered
+Resolution Unit     |Inch
+Aperture            |2.52 EV (f/2.4)
+Exif Version        |No EXIF data found for 20250104_160944.jpg
+
+
+=== Metadata for 20250104_164647.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250104_164647.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Compression         |JPEG compression
+Image Length        |3024
+Manufacturer        |samsung
+Orientation         |Top-left
+Date and Time       |2025:01:04 16:46:47
+Y-Resolution        |72
+X-Resolution        |72
+Image Width         |3024
+Model               |SM-N970W
+Software            |N970WVLU8HXE1
+YCbCr Positioning   |Centered
+Resolution Unit     |Inch
+Aperture            |1.16 EV (f/1.5)
+Exif Version        |No EXIF data found for 20250104_164647.jpg
+
+
+=== Metadata for 20250104_174152.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250104_174152.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Compression         |JPEG compression
+Image Length        |3024
+Manufacturer        |samsung
+Orientation         |Top-left
+Date and Time       |2025:01:04 17:41:52
+Y-Resolution        |72
+X-Resolution        |72
+Image Width         |3024
+Model               |SM-N970W
+Software            |N970WVLU8HXE1
+YCbCr Positioning   |Centered
+Resolution Unit     |Inch
+Aperture            |1.16 EV (f/1.5)
+Exif Version        |No EXIF data found for 20250104_174152.jpg
+
+
+=== Metadata for 20250104_192302.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250104_192302.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Compression         |JPEG compression
+Image Length        |3024
+Manufacturer        |samsung
+Orientation         |Top-left
+Date and Time       |2025:01:04 19:23:02
+Y-Resolution        |72
+X-Resolution        |72
+Image Width         |3024
+Model               |SM-N970W
+Software            |N970WVLU8HXE1
+YCbCr Positioning   |Centered
+Resolution Unit     |Inch
+Aperture            |1.16 EV (f/1.5)
+Exif Version        |No EXIF data found for 20250104_192302.jpg
+
+
+=== Metadata for 20250104_204236.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250104_204236.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Compression         |JPEG compression
+Image Length        |3024
+Manufacturer        |samsung
+Orientation         |Top-left
+Date and Time       |2025:01:04 20:42:36
+Y-Resolution        |72
+X-Resolution        |72
+Image Width         |3024
+Model               |SM-N970W
+Software            |N970WVLU8HXE1
+YCbCr Positioning   |Centered
+Resolution Unit     |Inch
+Aperture            |1.16 EV (f/1.5)
+Exif Version        |No EXIF data found for 20250104_204236.jpg
+
+
+=== Metadata for 20250110_072638.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250110_072638.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Compression         |JPEG compression
+Image Length        |3024
+Manufacturer        |samsung
+Orientation         |Top-left
+Date and Time       |2025:01:10 07:26:39
+Y-Resolution        |72
+X-Resolution        |72
+Image Width         |3024
+Model               |SM-N970W
+Software            |N970WVLU8HXE1
+YCbCr Positioning   |Centered
+Resolution Unit     |Inch
+Aperture            |1.16 EV (f/1.5)
+Exif Version        |No EXIF data found for 20250110_072638.jpg
+
+
+=== Metadata for 20250116_071202.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250116_071202.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Compression         |JPEG compression
+Image Length        |3024
+Manufacturer        |samsung
+Orientation         |Top-left
+Date and Time       |2025:01:16 07:12:02
+Y-Resolution        |72
+X-Resolution        |72
+Image Width         |3024
+Model               |SM-N970W
+Software            |N970WVLU8HXE1
+YCbCr Positioning   |Centered
+Resolution Unit     |Inch
+Aperture            |1.16 EV (f/1.5)
+Exif Version        |No EXIF data found for 20250116_071202.jpg
+
+
+=== Metadata for 20250116_071208.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250116_071208.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Compression         |JPEG compression
+Image Length        |3024
+Manufacturer        |samsung
+Orientation         |Top-left
+Date and Time       |2025:01:16 07:12:08
+Y-Resolution        |72
+X-Resolution        |72
+Image Width         |3024
+Model               |SM-N970W
+Software            |N970WVLU8HXE1
+YCbCr Positioning   |Centered
+Resolution Unit     |Inch
+Aperture            |1.16 EV (f/1.5)
+Exif Version        |No EXIF data found for 20250116_071208.jpg
+
+
+=== Metadata for 20250116_071214.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250116_071214.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Image Width         |3024
+Image Length        |3024
+Manufacturer        |samsung
+Model               |SM-N970W
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Software            |N970WVLU8HXE1
+Date and Time       |2025:01:16 07:12:14
+YCbCr Positioning   |Centered
+Image Width         |240
+Image Length        |240
+Compression         |JPEG compression
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Exposure Time       |1/15 sec.
+F-Number            |f/1.5
+Exposure Program    |Normal program
+ISO Speed Ratings   |640
+Exif Version        |Exif Version 2.2
+Date and Time (Origi|2025:01:16 07:12:14
+Date and Time (Digit|2025:01:16 07:12:14
+Offset Time For Date|-05:00
+Offset Time For Date|-05:00
+Components Configura|Y Cb Cr -
+Shutter Speed       |3.91 EV (1/15 sec.)
+Aperture            |1.16 EV (f/1.5)
+Brightness          |-2.45 EV (0.63 cd/m^2)
+Exposure Bias       |0.00 EV
+Maximum Aperture Val|1.16 EV (f/1.5)
+Metering Mode       |Center-weighted average
+Flash               |Flash did not fire
+Focal Length        |4.3 mm
+Sub-second Time     |621868
+Sub-second Time (Ori|621868
+Sub-second Time (Dig|621868
+FlashPixVersion     |FlashPix Version 1.0
+Color Space         |sRGB
+Pixel X Dimension   |3024
+Pixel Y Dimension   |3024
+Sensing Method      |Not defined
+Scene Type          |No EXIF data found for 20250116_071214.jpg
+
+
+=== Metadata for 20250116_071634.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250116_071634.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Compression         |JPEG compression
+Image Length        |3024
+Manufacturer        |samsung
+Orientation         |Top-left
+Date and Time       |2025:01:16 07:16:34
+Y-Resolution        |72
+X-Resolution        |72
+Image Width         |3024
+Model               |SM-N970W
+Software            |N970WVLU8HXE1
+YCbCr Positioning   |Centered
+Resolution Unit     |Inch
+Aperture            |1.16 EV (f/1.5)
+Exif Version        |No EXIF data found for 20250116_071634.jpg
+
+
+=== Metadata for 20250116_113942.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250116_113942.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Compression         |JPEG compression
+Image Length        |3024
+Manufacturer        |samsung
+Orientation         |Top-left
+Date and Time       |2025:01:16 11:39:42
+Y-Resolution        |72
+X-Resolution        |72
+Image Width         |3024
+Model               |SM-N970W
+Software            |N970WVLU8HXE1
+YCbCr Positioning   |Centered
+Resolution Unit     |Inch
+Aperture            |1.16 EV (f/1.5)
+Exif Version        |No EXIF data found for 20250116_113942.jpg
+
+
+=== Metadata for 20250116_140306.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250116_140306.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Compression         |JPEG compression
+Image Length        |3024
+Manufacturer        |samsung
+Orientation         |Top-left
+Date and Time       |2025:01:16 14:03:06
+Y-Resolution        |72
+X-Resolution        |72
+Image Width         |3024
+Model               |SM-N970W
+Software            |N970WVLU8HXE1
+YCbCr Positioning   |Centered
+Resolution Unit     |Inch
+Aperture            |1.16 EV (f/1.5)
+Exif Version        |No EXIF data found for 20250116_140306.jpg
+
+
+=== Metadata for 20250116_161837.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250116_161837.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Compression         |JPEG compression
+Image Length        |3024
+Manufacturer        |samsung
+Orientation         |Top-left
+Date and Time       |2025:01:16 16:18:37
+Y-Resolution        |72
+X-Resolution        |72
+Image Width         |3024
+Model               |SM-N970W
+Software            |N970WVLU8HXE1
+YCbCr Positioning   |Centered
+Resolution Unit     |Inch
+Aperture            |1.16 EV (f/1.5)
+Exif Version        |No EXIF data found for 20250116_161837.jpg
+
+
+=== Metadata for 20250117_064043.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250117_064043.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Compression         |JPEG compression
+Image Length        |3024
+Manufacturer        |samsung
+Orientation         |Top-left
+Date and Time       |2025:01:17 06:40:43
+Y-Resolution        |72
+X-Resolution        |72
+Image Width         |3024
+Model               |SM-N970W
+Software            |N970WVLU8HXE1
+YCbCr Positioning   |Centered
+Resolution Unit     |Inch
+Aperture            |1.16 EV (f/1.5)
+Exif Version        |No EXIF data found for 20250117_064043.jpg
+
+
+=== Metadata for 20250120_063034.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250120_063034.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Compression         |JPEG compression
+Image Length        |3024
+Manufacturer        |samsung
+Orientation         |Top-left
+Date and Time       |2025:01:20 06:30:34
+Y-Resolution        |72
+X-Resolution        |72
+Image Width         |3024
+Model               |SM-N970W
+Software            |N970WVLU8HXE1
+YCbCr Positioning   |Centered
+Resolution Unit     |Inch
+Aperture            |1.16 EV (f/1.5)
+Exif Version        |No EXIF data found for 20250120_063034.jpg
+
+
+=== Metadata for 20250131_081532.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250131_081532.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Image Width         |3024
+Image Length        |3024
+Manufacturer        |samsung
+Model               |SM-N970W
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Software            |N970WVLU8HXE1
+Date and Time       |2025:01:31 08:15:32
+YCbCr Positioning   |Centered
+Image Width         |240
+Image Length        |240
+Compression         |JPEG compression
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Exposure Time       |1/12 sec.
+F-Number            |f/1.5
+Exposure Program    |Normal program
+ISO Speed Ratings   |125
+Exif Version        |Exif Version 2.2
+Date and Time (Origi|2025:01:31 08:15:32
+Date and Time (Digit|2025:01:31 08:15:32
+Offset Time For Date|-05:00
+Offset Time For Date|-05:00
+Components Configura|Y Cb Cr -
+Shutter Speed       |3.57 EV (1/12 sec.)
+Aperture            |1.16 EV (f/1.5)
+Brightness          |-0.60 EV (2.26 cd/m^2)
+Exposure Bias       |0/0
+Maximum Aperture Val|1.16 EV (f/1.5)
+Metering Mode       |Center-weighted average
+Flash               |Flash fired
+Focal Length        |4.3 mm
+Sub-second Time     |902413
+Sub-second Time (Ori|902413
+Sub-second Time (Dig|902413
+FlashPixVersion     |FlashPix Version 1.0
+Color Space         |sRGB
+Pixel X Dimension   |3024
+Pixel Y Dimension   |3024
+Sensing Method      |Not defined
+Scene Type          |No EXIF data found for 20250131_081532.jpg
+
+
+=== Metadata for 20250202_074647.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250202_074647.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Image Width         |3024
+Image Length        |3024
+Manufacturer        |samsung
+Model               |SM-N970W
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Software            |N970WVLU8HXE1
+Date and Time       |2025:02:02 07:46:47
+YCbCr Positioning   |Centered
+Image Width         |240
+Image Length        |240
+Compression         |JPEG compression
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Exposure Time       |1/20 sec.
+F-Number            |f/1.5
+Exposure Program    |Normal program
+ISO Speed Ratings   |640
+Exif Version        |Exif Version 2.2
+Date and Time (Origi|2025:02:02 07:46:47
+Date and Time (Digit|2025:02:02 07:46:47
+Offset Time For Date|-05:00
+Offset Time For Date|-05:00
+Components Configura|Y Cb Cr -
+Shutter Speed       |4.32 EV (1/20 sec.)
+Aperture            |1.16 EV (f/1.5)
+Brightness          |-1.92 EV (0.91 cd/m^2)
+Exposure Bias       |0.00 EV
+Maximum Aperture Val|1.16 EV (f/1.5)
+Metering Mode       |Center-weighted average
+Flash               |Flash did not fire
+Focal Length        |4.3 mm
+Sub-second Time     |297949
+Sub-second Time (Ori|297949
+Sub-second Time (Dig|297949
+FlashPixVersion     |FlashPix Version 1.0
+Color Space         |sRGB
+Pixel X Dimension   |3024
+Pixel Y Dimension   |3024
+Sensing Method      |Not defined
+Scene Type          |No EXIF data found for 20250202_074647.jpg
+
+
+=== Metadata for 20250207_201427.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250207_201427.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Image Width         |3024
+Image Length        |3024
+Manufacturer        |samsung
+Model               |SM-N970W
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Software            |N970WVLU8HXE1
+Date and Time       |2025:02:07 20:14:27
+YCbCr Positioning   |Centered
+Image Width         |240
+Image Length        |240
+Compression         |JPEG compression
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Exposure Time       |1/18 sec.
+F-Number            |f/1.5
+Exposure Program    |Normal program
+ISO Speed Ratings   |125
+Exif Version        |Exif Version 2.2
+Date and Time (Origi|2025:02:07 20:14:27
+Date and Time (Digit|2025:02:07 20:14:27
+Offset Time For Date|-05:00
+Offset Time For Date|-05:00
+Components Configura|Y Cb Cr -
+Shutter Speed       |4.16 EV (1/18 sec.)
+Aperture            |1.16 EV (f/1.5)
+Brightness          |-0.02 EV (3.38 cd/m^2)
+Exposure Bias       |0/0
+Maximum Aperture Val|1.16 EV (f/1.5)
+Metering Mode       |Center-weighted average
+Flash               |Flash fired
+Focal Length        |4.3 mm
+Sub-second Time     |652106
+Sub-second Time (Ori|652106
+Sub-second Time (Dig|652106
+FlashPixVersion     |FlashPix Version 1.0
+Color Space         |sRGB
+Pixel X Dimension   |3024
+Pixel Y Dimension   |3024
+Sensing Method      |Not defined
+Scene Type          |No EXIF data found for 20250207_201427.jpg
+
+
+=== Metadata for 20250210_043236.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250210_043236.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Image Width         |3024
+Image Length        |3024
+Manufacturer        |samsung
+Model               |SM-N970W
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Software            |N970WVLU8HXE1
+Date and Time       |2025:02:10 04:32:36
+YCbCr Positioning   |Centered
+Image Width         |240
+Image Length        |240
+Compression         |JPEG compression
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Exposure Time       |1/22 sec.
+F-Number            |f/1.5
+Exposure Program    |Normal program
+ISO Speed Ratings   |125
+Exif Version        |Exif Version 2.2
+Date and Time (Origi|2025:02:10 04:32:36
+Date and Time (Digit|2025:02:10 04:32:36
+Offset Time For Date|-05:00
+Offset Time For Date|-05:00
+Components Configura|Y Cb Cr -
+Shutter Speed       |4.46 EV (1/22 sec.)
+Aperture            |1.16 EV (f/1.5)
+Brightness          |0.27 EV (4.13 cd/m^2)
+Exposure Bias       |0/0
+Maximum Aperture Val|1.16 EV (f/1.5)
+Metering Mode       |Center-weighted average
+Flash               |Flash fired
+Focal Length        |4.3 mm
+Sub-second Time     |243908
+Sub-second Time (Ori|243908
+Sub-second Time (Dig|243908
+FlashPixVersion     |FlashPix Version 1.0
+Color Space         |sRGB
+Pixel X Dimension   |3024
+Pixel Y Dimension   |3024
+Sensing Method      |Not defined
+Scene Type          |No EXIF data found for 20250210_043236.jpg
+
+
+=== Metadata for 20250210_124638.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250210_124638.jpg' ('Intel' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Image Width         |3024
+Image Length        |3024
+Manufacturer        |samsung
+Model               |SM-N970W
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Software            |N970WVLU8HXE1
+Date and Time       |2025:02:10 12:46:38
+YCbCr Positioning   |Centered
+Image Width         |512
+Image Length        |512
+Compression         |JPEG compression
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Exposure Time       |1/40 sec.
+F-Number            |f/1.5
+Exposure Program    |Normal program
+ISO Speed Ratings   |320
+Exif Version        |Exif Version 2.2
+Date and Time (Origi|2025:02:10 12:46:38
+Date and Time (Digit|2025:02:10 12:46:38
+Offset Time For Date|-05:00
+Offset Time For Date|-05:00
+Shutter Speed       |5.32 EV (1/40 sec.)
+Aperture            |1.16 EV (f/1.5)
+Exposure Bias       |0.00 EV
+Maximum Aperture Val|2.52 EV (f/2.4)
+Metering Mode       |Center-weighted average
+Flash               |Flash did not fire
+Focal Length        |4.3 mm
+Color Space         |sRGB
+Pixel X Dimension   |3024
+Pixel Y Dimension   |3024
+Exposure Mode       |Auto exposure
+White Balance       |Auto white balance
+Digital Zoom Ratio  |1.00
+Focal Length in 35mm|26
+Scene Capture Type  |Standard
+Image Unique ID     |O12XLMA10AM
+FlashPixVersion     |FlashPix Version 1.0
+--------------------+----------------------------------------------------------
+EXIF data contains a thumbnail (50114 bytes).
+
+
+=== Metadata for 20250212_072949.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250212_072949.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Image Width         |3024
+Image Length        |3024
+Manufacturer        |samsung
+Model               |SM-N970W
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Software            |N970WVLU8HXE1
+Date and Time       |2025:02:12 07:29:49
+YCbCr Positioning   |Centered
+Image Width         |240
+Image Length        |240
+Compression         |JPEG compression
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Exposure Time       |1/110 sec.
+F-Number            |f/1.5
+Exposure Program    |Normal program
+ISO Speed Ratings   |50
+Exif Version        |Exif Version 2.2
+Date and Time (Origi|2025:02:12 07:29:49
+Date and Time (Digit|2025:02:12 07:29:49
+Offset Time For Date|-05:00
+Offset Time For Date|-05:00
+Components Configura|Y Cb Cr -
+Shutter Speed       |6.78 EV (1/110 sec.)
+Aperture            |1.16 EV (f/1.5)
+Brightness          |4.02 EV (55.59 cd/m^2)
+Exposure Bias       |0/0
+Maximum Aperture Val|1.16 EV (f/1.5)
+Metering Mode       |Center-weighted average
+Flash               |Flash fired
+Focal Length        |4.3 mm
+Sub-second Time     |062544
+Sub-second Time (Ori|062544
+Sub-second Time (Dig|062544
+FlashPixVersion     |FlashPix Version 1.0
+Color Space         |sRGB
+Pixel X Dimension   |3024
+Pixel Y Dimension   |3024
+Sensing Method      |Not defined
+Scene Type          |No EXIF data found for 20250212_072949.jpg
+
+
+=== Metadata for 20250215_080046.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250215_080046.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Image Width         |3024
+Image Length        |3024
+Manufacturer        |samsung
+Model               |SM-N970W
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Software            |N970WVLU8HXE1
+Date and Time       |2025:02:15 08:00:46
+YCbCr Positioning   |Centered
+Image Width         |240
+Image Length        |240
+Compression         |JPEG compression
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Exposure Time       |1/10 sec.
+F-Number            |f/1.5
+Exposure Program    |Normal program
+ISO Speed Ratings   |1250
+Exif Version        |Exif Version 2.2
+Date and Time (Origi|2025:02:15 08:00:46
+Date and Time (Digit|2025:02:15 08:00:46
+Offset Time For Date|-05:00
+Offset Time For Date|-05:00
+Components Configura|Y Cb Cr -
+Shutter Speed       |3.32 EV (1/10 sec.)
+Aperture            |1.16 EV (f/1.5)
+Brightness          |-3.94 EV (0.22 cd/m^2)
+Exposure Bias       |0.00 EV
+Maximum Aperture Val|1.16 EV (f/1.5)
+Metering Mode       |Center-weighted average
+Flash               |Flash did not fire
+Focal Length        |4.3 mm
+Sub-second Time     |240855
+Sub-second Time (Ori|240855
+Sub-second Time (Dig|240855
+FlashPixVersion     |FlashPix Version 1.0
+Color Space         |sRGB
+Pixel X Dimension   |3024
+Pixel Y Dimension   |3024
+Sensing Method      |Not defined
+Scene Type          |No EXIF data found for 20250215_080046.jpg
+
+
+=== Metadata for 20250216_081703.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250216_081703.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Image Width         |3024
+Image Length        |3024
+Manufacturer        |samsung
+Model               |SM-N970W
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Software            |N970WVLU8HXE1
+Date and Time       |2025:02:16 08:17:03
+YCbCr Positioning   |Centered
+Image Width         |240
+Image Length        |240
+Compression         |JPEG compression
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Exposure Time       |1/10 sec.
+F-Number            |f/1.5
+Exposure Program    |Normal program
+ISO Speed Ratings   |800
+Exif Version        |Exif Version 2.2
+Date and Time (Origi|2025:02:16 08:17:03
+Date and Time (Digit|2025:02:16 08:17:03
+Offset Time For Date|-05:00
+Offset Time For Date|-05:00
+Components Configura|Y Cb Cr -
+Shutter Speed       |3.32 EV (1/10 sec.)
+Aperture            |1.16 EV (f/1.5)
+Brightness          |-3.41 EV (0.32 cd/m^2)
+Exposure Bias       |0.00 EV
+Maximum Aperture Val|1.16 EV (f/1.5)
+Metering Mode       |Center-weighted average
+Flash               |Flash did not fire
+Focal Length        |4.3 mm
+Sub-second Time     |108449
+Sub-second Time (Ori|108449
+Sub-second Time (Dig|108449
+FlashPixVersion     |FlashPix Version 1.0
+Color Space         |sRGB
+Pixel X Dimension   |3024
+Pixel Y Dimension   |3024
+Sensing Method      |Not defined
+Scene Type          |No EXIF data found for 20250216_081703.jpg
+
+
+=== Metadata for 20250216_081710.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250216_081710.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Image Width         |3024
+Image Length        |3024
+Manufacturer        |samsung
+Model               |SM-N970W
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Software            |N970WVLU8HXE1
+Date and Time       |2025:02:16 08:17:10
+YCbCr Positioning   |Centered
+Image Width         |240
+Image Length        |240
+Compression         |JPEG compression
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Exposure Time       |1/11 sec.
+F-Number            |f/1.5
+Exposure Program    |Normal program
+ISO Speed Ratings   |2500
+Exif Version        |Exif Version 2.2
+Date and Time (Origi|2025:02:16 08:17:10
+Date and Time (Digit|2025:02:16 08:17:10
+Offset Time For Date|-05:00
+Offset Time For Date|-05:00
+Components Configura|Y Cb Cr -
+Shutter Speed       |3.44 EV (1/11 sec.)
+Aperture            |1.16 EV (f/1.5)
+Brightness          |-4.98 EV (0.11 cd/m^2)
+Exposure Bias       |0.00 EV
+Maximum Aperture Val|1.16 EV (f/1.5)
+Metering Mode       |Center-weighted average
+Flash               |Flash did not fire
+Focal Length        |4.3 mm
+Sub-second Time     |305452
+Sub-second Time (Ori|305452
+Sub-second Time (Dig|305452
+FlashPixVersion     |FlashPix Version 1.0
+Color Space         |sRGB
+Pixel X Dimension   |3024
+Pixel Y Dimension   |3024
+Sensing Method      |Not defined
+Scene Type          |No EXIF data found for 20250216_081710.jpg
+
+
+=== Metadata for 20250221_072721.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250221_072721.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Image Width         |3024
+Image Length        |3024
+Manufacturer        |samsung
+Model               |SM-N970W
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Software            |N970WVLU8HXE1
+Date and Time       |2025:02:21 07:27:21
+YCbCr Positioning   |Centered
+Image Width         |240
+Image Length        |240
+Compression         |JPEG compression
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Exposure Time       |1/16 sec.
+F-Number            |f/1.5
+Exposure Program    |Normal program
+ISO Speed Ratings   |125
+Exif Version        |Exif Version 2.2
+Date and Time (Origi|2025:02:21 07:27:21
+Date and Time (Digit|2025:02:21 07:27:21
+Offset Time For Date|-05:00
+Offset Time For Date|-05:00
+Components Configura|Y Cb Cr -
+Shutter Speed       |3.96 EV (1/16 sec.)
+Aperture            |1.16 EV (f/1.5)
+Brightness          |-0.21 EV (2.96 cd/m^2)
+Exposure Bias       |0/0
+Maximum Aperture Val|1.16 EV (f/1.5)
+Metering Mode       |Center-weighted average
+Flash               |Flash fired
+Focal Length        |4.3 mm
+Sub-second Time     |767396
+Sub-second Time (Ori|767396
+Sub-second Time (Dig|767396
+FlashPixVersion     |FlashPix Version 1.0
+Color Space         |sRGB
+Pixel X Dimension   |3024
+Pixel Y Dimension   |3024
+Sensing Method      |Not defined
+Scene Type          |No EXIF data found for 20250221_072721.jpg
+
+
+=== Metadata for 20250224_072504.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250224_072504.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Image Width         |3024
+Image Length        |3024
+Manufacturer        |samsung
+Model               |SM-N970W
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Software            |N970WVLU8HXE1
+Date and Time       |2025:02:24 07:25:04
+YCbCr Positioning   |Centered
+Image Width         |240
+Image Length        |240
+Compression         |JPEG compression
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Exposure Time       |1/19 sec.
+F-Number            |f/1.5
+Exposure Program    |Normal program
+ISO Speed Ratings   |125
+Exif Version        |Exif Version 2.2
+Date and Time (Origi|2025:02:24 07:25:04
+Date and Time (Digit|2025:02:24 07:25:04
+Offset Time For Date|-05:00
+Offset Time For Date|-05:00
+Components Configura|Y Cb Cr -
+Shutter Speed       |4.27 EV (1/19 sec.)
+Aperture            |1.16 EV (f/1.5)
+Brightness          |0.08 EV (3.62 cd/m^2)
+Exposure Bias       |0/0
+Maximum Aperture Val|1.16 EV (f/1.5)
+Metering Mode       |Center-weighted average
+Flash               |Flash fired
+Focal Length        |4.3 mm
+Sub-second Time     |812993
+Sub-second Time (Ori|812993
+Sub-second Time (Dig|812993
+FlashPixVersion     |FlashPix Version 1.0
+Color Space         |sRGB
+Pixel X Dimension   |3024
+Pixel Y Dimension   |3024
+Sensing Method      |Not defined
+Scene Type          |No EXIF data found for 20250224_072504.jpg
+
+
+=== Metadata for 20250225_081511.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250225_081511.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Image Width         |3024
+Image Length        |3024
+Manufacturer        |samsung
+Model               |SM-N970W
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Software            |N970WVLU8HXE1
+Date and Time       |2025:02:25 08:15:11
+YCbCr Positioning   |Centered
+Image Width         |240
+Image Length        |240
+Compression         |JPEG compression
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Exposure Time       |1/10 sec.
+F-Number            |f/1.5
+Exposure Program    |Normal program
+ISO Speed Ratings   |160
+Exif Version        |Exif Version 2.2
+Date and Time (Origi|2025:02:25 08:15:11
+Date and Time (Digit|2025:02:25 08:15:11
+Offset Time For Date|-05:00
+Offset Time For Date|-05:00
+Components Configura|Y Cb Cr -
+Shutter Speed       |3.32 EV (1/10 sec.)
+Aperture            |1.16 EV (f/1.5)
+Brightness          |-1.05 EV (1.65 cd/m^2)
+Exposure Bias       |0/0
+Maximum Aperture Val|1.16 EV (f/1.5)
+Metering Mode       |Center-weighted average
+Flash               |Flash fired
+Focal Length        |4.3 mm
+Sub-second Time     |313788
+Sub-second Time (Ori|313788
+Sub-second Time (Dig|313788
+FlashPixVersion     |FlashPix Version 1.0
+Color Space         |sRGB
+Pixel X Dimension   |3024
+Pixel Y Dimension   |3024
+Sensing Method      |Not defined
+Scene Type          |No EXIF data found for 20250225_081511.jpg
+
+
+=== Metadata for 20250225_081531.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250225_081531.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Image Width         |3024
+Image Length        |3024
+Manufacturer        |samsung
+Model               |SM-N970W
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Software            |N970WVLU8HXE1
+Date and Time       |2025:02:25 08:15:31
+YCbCr Positioning   |Centered
+Image Width         |240
+Image Length        |240
+Compression         |JPEG compression
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Exposure Time       |1/20 sec.
+F-Number            |f/1.5
+Exposure Program    |Normal program
+ISO Speed Ratings   |125
+Exif Version        |Exif Version 2.2
+Date and Time (Origi|2025:02:25 08:15:31
+Date and Time (Digit|2025:02:25 08:15:31
+Offset Time For Date|-05:00
+Offset Time For Date|-05:00
+Components Configura|Y Cb Cr -
+Shutter Speed       |4.30 EV (1/20 sec.)
+Aperture            |1.16 EV (f/1.5)
+Brightness          |0.12 EV (3.72 cd/m^2)
+Exposure Bias       |0/0
+Maximum Aperture Val|1.16 EV (f/1.5)
+Metering Mode       |Center-weighted average
+Flash               |Flash did not fire
+Focal Length        |4.3 mm
+Sub-second Time     |565199
+Sub-second Time (Ori|565199
+Sub-second Time (Dig|565199
+FlashPixVersion     |FlashPix Version 1.0
+Color Space         |sRGB
+Pixel X Dimension   |3024
+Pixel Y Dimension   |3024
+Sensing Method      |Not defined
+Scene Type          |No EXIF data found for 20250225_081531.jpg
+
+
+=== Metadata for 20250225_160623.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250225_160623.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Image Width         |3024
+Image Length        |3024
+Manufacturer        |samsung
+Model               |SM-N970W
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Software            |N970WVLU8HXE1
+Date and Time       |2025:02:25 16:06:23
+YCbCr Positioning   |Centered
+Image Width         |240
+Image Length        |240
+Compression         |JPEG compression
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Exposure Time       |1/57 sec.
+F-Number            |f/2.4
+Exposure Program    |Normal program
+ISO Speed Ratings   |50
+Exif Version        |Exif Version 2.2
+Date and Time (Origi|2025:02:25 16:06:23
+Date and Time (Digit|2025:02:25 16:06:23
+Offset Time For Date|-05:00
+Offset Time For Date|-05:00
+Components Configura|Y Cb Cr -
+Shutter Speed       |5.84 EV (1/57 sec.)
+Aperture            |2.52 EV (f/2.4)
+Brightness          |4.10 EV (58.75 cd/m^2)
+Exposure Bias       |0/0
+Maximum Aperture Val|1.16 EV (f/1.5)
+Metering Mode       |Center-weighted average
+Flash               |Flash fired
+Focal Length        |4.3 mm
+Sub-second Time     |809007
+Sub-second Time (Ori|809007
+Sub-second Time (Dig|809007
+FlashPixVersion     |FlashPix Version 1.0
+Color Space         |sRGB
+Pixel X Dimension   |3024
+Pixel Y Dimension   |3024
+Sensing Method      |Not defined
+Scene Type          |No EXIF data found for 20250225_160623.jpg
+
+
+=== Metadata for 20250227_073609.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250227_073609.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Image Width         |3024
+Image Length        |3024
+Manufacturer        |samsung
+Model               |SM-N970W
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Software            |N970WVLU8HXE1
+Date and Time       |2025:02:27 07:36:09
+YCbCr Positioning   |Centered
+Image Width         |240
+Image Length        |240
+Compression         |JPEG compression
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Exposure Time       |1/10 sec.
+F-Number            |f/1.5
+Exposure Program    |Normal program
+ISO Speed Ratings   |200
+Exif Version        |Exif Version 2.2
+Date and Time (Origi|2025:02:27 07:36:09
+Date and Time (Digit|2025:02:27 07:36:09
+Offset Time For Date|-05:00
+Offset Time For Date|-05:00
+Components Configura|Y Cb Cr -
+Shutter Speed       |3.32 EV (1/10 sec.)
+Aperture            |1.16 EV (f/1.5)
+Brightness          |-1.50 EV (1.21 cd/m^2)
+Exposure Bias       |0/0
+Maximum Aperture Val|1.16 EV (f/1.5)
+Metering Mode       |Center-weighted average
+Flash               |Flash fired
+Focal Length        |4.3 mm
+Sub-second Time     |126433
+Sub-second Time (Ori|126433
+Sub-second Time (Dig|126433
+FlashPixVersion     |FlashPix Version 1.0
+Color Space         |sRGB
+Pixel X Dimension   |3024
+Pixel Y Dimension   |3024
+Sensing Method      |Not defined
+Scene Type          |No EXIF data found for 20250227_073609.jpg
+
+
+=== Metadata for 20250228_054425.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250228_054425.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Image Width         |3024
+Image Length        |3024
+Manufacturer        |samsung
+Model               |SM-N970W
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Software            |N970WVLU8HXE1
+Date and Time       |2025:02:28 05:44:25
+YCbCr Positioning   |Centered
+Image Width         |240
+Image Length        |240
+Compression         |JPEG compression
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Exposure Time       |1/24 sec.
+F-Number            |f/1.5
+Exposure Program    |Normal program
+ISO Speed Ratings   |125
+Exif Version        |Exif Version 2.2
+Date and Time (Origi|2025:02:28 05:44:25
+Date and Time (Digit|2025:02:28 05:44:25
+Offset Time For Date|-05:00
+Offset Time For Date|-05:00
+Components Configura|Y Cb Cr -
+Shutter Speed       |4.58 EV (1/24 sec.)
+Aperture            |1.16 EV (f/1.5)
+Brightness          |0.56 EV (5.05 cd/m^2)
+Exposure Bias       |0/0
+Maximum Aperture Val|1.16 EV (f/1.5)
+Metering Mode       |Center-weighted average
+Flash               |Flash fired
+Focal Length        |4.3 mm
+Sub-second Time     |244863
+Sub-second Time (Ori|244863
+Sub-second Time (Dig|244863
+FlashPixVersion     |FlashPix Version 1.0
+Color Space         |sRGB
+Pixel X Dimension   |3024
+Pixel Y Dimension   |3024
+Sensing Method      |Not defined
+Scene Type          |No EXIF data found for 20250228_054425.jpg
+
+
+=== Metadata for 20250228_165414.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250228_165414.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Image Width         |3024
+Image Length        |3024
+Manufacturer        |samsung
+Model               |SM-N970W
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Software            |N970WVLU8HXE1
+Date and Time       |2025:02:28 16:54:14
+YCbCr Positioning   |Centered
+Image Width         |240
+Image Length        |240
+Compression         |JPEG compression
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Exposure Time       |1/21 sec.
+F-Number            |f/1.5
+Exposure Program    |Normal program
+ISO Speed Ratings   |125
+Exif Version        |Exif Version 2.2
+Date and Time (Origi|2025:02:28 16:54:14
+Date and Time (Digit|2025:02:28 16:54:14
+Offset Time For Date|-05:00
+Offset Time For Date|-05:00
+Components Configura|Y Cb Cr -
+Shutter Speed       |4.37 EV (1/21 sec.)
+Aperture            |1.16 EV (f/1.5)
+Brightness          |0.18 EV (3.88 cd/m^2)
+Exposure Bias       |0/0
+Maximum Aperture Val|1.16 EV (f/1.5)
+Metering Mode       |Center-weighted average
+Flash               |Flash fired
+Focal Length        |4.3 mm
+Sub-second Time     |672397
+Sub-second Time (Ori|672397
+Sub-second Time (Dig|672397
+FlashPixVersion     |FlashPix Version 1.0
+Color Space         |sRGB
+Pixel X Dimension   |3024
+Pixel Y Dimension   |3024
+Sensing Method      |Not defined
+Scene Type          |No EXIF data found for 20250228_165414.jpg
+
+
+=== Metadata for 20250228_212928.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250228_212928.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Image Width         |3024
+Image Length        |3024
+Manufacturer        |samsung
+Model               |SM-N970W
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Software            |N970WVLU8HXE1
+Date and Time       |2025:02:28 21:29:28
+YCbCr Positioning   |Centered
+Image Width         |240
+Image Length        |240
+Compression         |JPEG compression
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Exposure Time       |1/17 sec.
+F-Number            |f/1.5
+Exposure Program    |Normal program
+ISO Speed Ratings   |125
+Exif Version        |Exif Version 2.2
+Date and Time (Origi|2025:02:28 21:29:28
+Date and Time (Digit|2025:02:28 21:29:28
+Offset Time For Date|-05:00
+Offset Time For Date|-05:00
+Components Configura|Y Cb Cr -
+Shutter Speed       |4.09 EV (1/17 sec.)
+Aperture            |1.16 EV (f/1.5)
+Brightness          |-0.09 EV (3.22 cd/m^2)
+Exposure Bias       |0/0
+Maximum Aperture Val|1.16 EV (f/1.5)
+Metering Mode       |Center-weighted average
+Flash               |Flash fired
+Focal Length        |4.3 mm
+Sub-second Time     |679548
+Sub-second Time (Ori|679548
+Sub-second Time (Dig|679548
+FlashPixVersion     |FlashPix Version 1.0
+Color Space         |sRGB
+Pixel X Dimension   |3024
+Pixel Y Dimension   |3024
+Sensing Method      |Not defined
+Scene Type          |No EXIF data found for 20250228_212928.jpg
+
+
+=== Metadata for 20250303_053912.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250303_053912.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Image Width         |3024
+Image Length        |3024
+Manufacturer        |samsung
+Model               |SM-N970W
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Software            |N970WVLU8HXE1
+Date and Time       |2025:03:03 05:39:12
+YCbCr Positioning   |Centered
+Image Width         |240
+Image Length        |240
+Compression         |JPEG compression
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Exposure Time       |1/18 sec.
+F-Number            |f/1.5
+Exposure Program    |Normal program
+ISO Speed Ratings   |125
+Exif Version        |Exif Version 2.2
+Date and Time (Origi|2025:03:03 05:39:12
+Date and Time (Digit|2025:03:03 05:39:12
+Offset Time For Date|-05:00
+Offset Time For Date|-05:00
+Components Configura|Y Cb Cr -
+Shutter Speed       |4.16 EV (1/18 sec.)
+Aperture            |1.16 EV (f/1.5)
+Brightness          |-0.02 EV (3.38 cd/m^2)
+Exposure Bias       |0/0
+Maximum Aperture Val|1.16 EV (f/1.5)
+Metering Mode       |Center-weighted average
+Flash               |Flash fired
+Focal Length        |4.3 mm
+Sub-second Time     |493051
+Sub-second Time (Ori|493051
+Sub-second Time (Dig|493051
+FlashPixVersion     |FlashPix Version 1.0
+Color Space         |sRGB
+Pixel X Dimension   |3024
+Pixel Y Dimension   |3024
+Sensing Method      |Not defined
+Scene Type          |No EXIF data found for 20250303_053912.jpg
+
+
+=== Metadata for 20250304_050030.jpg ===
+EXIF tags in '/workspace/rmate-fups/jpegs/20250304_050030.jpg' ('Motorola' byte order):
+--------------------+----------------------------------------------------------
+Tag                 |Value
+--------------------+----------------------------------------------------------
+Image Width         |3024
+Image Length        |3024
+Manufacturer        |samsung
+Model               |SM-N970W
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Software            |N970WVLU8HXE1
+Date and Time       |2025:03:04 05:00:30
+YCbCr Positioning   |Centered
+Image Width         |240
+Image Length        |240
+Compression         |JPEG compression
+Orientation         |Right-top
+X-Resolution        |72
+Y-Resolution        |72
+Resolution Unit     |Inch
+Exposure Time       |1/24 sec.
+F-Number            |f/1.5
+Exposure Program    |Normal program
+ISO Speed Ratings   |125
+Exif Version        |Exif Version 2.2
+Date and Time (Origi|2025:03:04 05:00:30
+Date and Time (Digit|2025:03:04 05:00:30
+Offset Time For Date|-05:00
+Offset Time For Date|-05:00
+Components Configura|Y Cb Cr -
+Shutter Speed       |4.57 EV (1/24 sec.)
+Aperture            |1.16 EV (f/1.5)
+Brightness          |0.39 EV (4.49 cd/m^2)
+Exposure Bias       |0/0
+Maximum Aperture Val|1.16 EV (f/1.5)
+Metering Mode       |Center-weighted average
+Flash               |Flash fired
+Focal Length        |4.3 mm
+Sub-second Time     |542211
+Sub-second Time (Ori|542211
+Sub-second Time (Dig|542211
+FlashPixVersion     |FlashPix Version 1.0
+Color Space         |sRGB
+Pixel X Dimension   |3024
+Pixel Y Dimension   |3024
+Sensing Method      |Not defined
+Scene Type          |No EXIF data found for 20250304_050030.jpg
+
+

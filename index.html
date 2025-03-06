@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roomates' Fuckups (May 2024 - May 2025)</title>
+    <script src="libs/p5.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Roomates' Fuckups</h1>
+            <p class="date-range">May 2024 - May 2025</p>
+        </header>
+
+        <div id="controls">
+            <button id="prevMonth" class="nav-button">
+                <span class="arrow">←</span>
+                <span class="label">Previous</span>
+            </button>
+            <span id="currentDate"></span>
+            <button id="nextMonth" class="nav-button">
+                <span class="label">Next</span>
+                <span class="arrow">→</span>
+            </button>
+        </div>
+
+        <main>
+            <div id="calendar-container"></div>
+        </main>
+
+        <footer>
+            <p>Click on any photo to view in full size</p>
+        </footer>
+    </div>
+
+    <div id="imageModal" class="modal">
+        <div class="modal-controls">
+            <span class="close">&times;</span>
+        </div>
+        <div class="modal-content">
+            <div class="navigation-buttons">
+                <button class="nav-button prev-image">&lt;</button>
+                <button class="nav-button next-image">&gt;</button>
+            </div>
+            <img id="modalImage" src="" alt="Image Preview">
+        </div>
+        <div class="image-info">
+            <p class="image-date"></p>
+        </div>
+    </div>
+
+    <script src="js/imageMetadata.js"></script>
+    <script src="js/sketch.js"></script>
+</body>
+</html>
