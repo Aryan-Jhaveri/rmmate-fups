@@ -1,0 +1,47 @@
+name: Update Image Metadata
+
+on:
+  push:
+    paths:
+      - 'jpegs/**'  # Trigger when any files in the jpegs directory change
+    branches:
+      - main        # Or whatever your default branch is
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  update-metadata:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y exif
+          python -m pip install --upgrade pip
+          
+      - name: Extract EXIF metadata
+        run: |
+          mkdir -p "$(dirname "${{ github.workspace }}/metadata.txt")"
+          bash extract_metadata.sh
+        env:
+          JPEG_DIR: ${{ github.workspace }}/jpegs
+          OUTPUT_FILE: ${{ github.workspace }}/metadata.txt
+          
+      - name: Process metadata and update JS file
+        run: |
+          python process_metadata.py
+          
+      - name: Commit and push if changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add js/imageMetadata.js
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update image metadata" && git push)

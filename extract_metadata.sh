@@ -1,9 +1,8 @@
 #!/bin/bash
 
-# Directory containing JPEG files
-JPEG_DIR="/workspace/rmate-fups/jpegs"
-# Output file
-OUTPUT_FILE="/workspace/rmate-fups/metadata.txt"
+# Use environment variables if set, otherwise use defaults
+JPEG_DIR="${JPEG_DIR:-/workspace/rmate-fups/jpegs}"
+OUTPUT_FILE="${OUTPUT_FILE:-/workspace/rmate-fups/metadata.txt}"
 
 # Create or clear the output file
 > "$OUTPUT_FILE"
