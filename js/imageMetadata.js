@@ -334,5 +334,21 @@ const imageMetadata = [
       "month": 3,
       "day": 4
     }
+  },
+  {
+    "filename": "20250308_075231.jpg",
+    "date": {
+      "year": 2025,
+      "month": 3,
+      "day": 8
+    }
+  },
+  {
+    "filename": "20250309_081405.jpg",
+    "date": {
+      "year": 2025,
+      "month": 3,
+      "day": 9
+    }
   }
 ];

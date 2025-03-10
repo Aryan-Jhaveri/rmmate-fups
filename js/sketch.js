@@ -4,6 +4,10 @@ let images = {};
 let cellSize = 100;
 let padding = 10;
 let calendar;
+let totalImages = 0;
+let loadedImages = 0;
+let loadingErrors = 0;
+let showLoadingScreen = true;
 
 // Date restrictions
 const MIN_DATE = { year: 2024, month: 5 }; // May 2024
@@ -16,11 +20,51 @@ function isDateInRange(year, month) {
     return true;
 }
 
+// Image loading success callback
+function imageLoaded(filename) {
+    loadedImages++;
+    if (loadedImages + loadingErrors >= totalImages) {
+        console.log(`All images loaded (${loadedImages} successful, ${loadingErrors} failed)`);
+        showLoadingScreen = false;
+    }
+}
+
+// Image loading error callback
+function imageError(filename) {
+    console.error(`Failed to load image: ${filename}`);
+    loadingErrors++;
+    if (loadedImages + loadingErrors >= totalImages) {
+        console.log(`All images processed (${loadedImages} successful, ${loadingErrors} failed)`);
+        showLoadingScreen = false;
+    }
+}
+
 function preload() {
-    // Load images based on metadata
-    for (let item of imageMetadata) {
-        let filename = item.filename;
-        images[filename] = loadImage('jpegs/' + filename);
+    // Count total images to track loading progress
+    if (imageMetadata && Array.isArray(imageMetadata)) {
+        totalImages = imageMetadata.length;
+        console.log(`Loading ${totalImages} images...`);
+        
+        // Load images based on metadata with error handling
+        for (let item of imageMetadata) {
+            if (!item || !item.filename) continue;
+            
+            let filename = item.filename;
+            // Use p5's loadImage with callback functions for success/error
+            loadImage(
+                'jpegs/' + filename,
+                // Success callback
+                (img) => {
+                    images[filename] = img;
+                    imageLoaded(filename);
+                },
+                // Error callback
+                () => imageError(filename)
+            );
+        }
+    } else {
+        console.error('Image metadata is missing or invalid');
+        showLoadingScreen = false;
     }
 }
 
@@ -36,6 +80,9 @@ function setup() {
         currentMonth = MIN_DATE.month;
     }
 
+    // Calculate cell size based on window width for responsiveness
+    updateCellSize();
+    
     // Create canvas
     const canvasWidth = cellSize * 7 + padding * 8;
     const canvasHeight = cellSize * 6 + padding * 7;
@@ -48,9 +95,68 @@ function setup() {
     setupModal();
 }
 
+function windowResized() {
+    // Update cell size based on new window dimensions
+    updateCellSize();
+    
+    // Resize canvas
+    const canvasWidth = cellSize * 7 + padding * 8;
+    const canvasHeight = cellSize * 6 + padding * 7;
+    resizeCanvas(canvasWidth, canvasHeight);
+    
+    // Redraw calendar
+    updateCalendar();
+}
+
+function updateCellSize() {
+    // Make cell size responsive based on window width
+    const minCellSize = 40; // Minimum cell size for very small screens
+    const defaultCellSize = 100; // Default size for larger screens
+    
+    if (windowWidth < 768) { // Mobile breakpoint
+        cellSize = max(minCellSize, windowWidth / 8); // Allow for some margins
+        padding = max(5, padding * windowWidth / 1200); // Scale padding too
+    } else {
+        cellSize = defaultCellSize;
+        padding = 10;
+    }
+}
+
 function draw() {
     background(240);
-    drawCalendar();
+    
+    if (showLoadingScreen) {
+        // Display loading screen
+        textAlign(CENTER, CENTER);
+        fill(50);
+        textSize(16);
+        const loadingText = `Loading images: ${loadedImages}/${totalImages}`;
+        text(loadingText, width/2, height/2 - 20);
+        
+        // Draw loading bar
+        const barWidth = width * 0.6;
+        const barHeight = 20;
+        const progress = totalImages > 0 ? loadedImages / totalImages : 0;
+        
+        // Bar background
+        fill(200);
+        noStroke();
+        rect(width/2 - barWidth/2, height/2, barWidth, barHeight, 5);
+        
+        // Progress bar
+        fill(0, 150, 255);
+        rect(width/2 - barWidth/2, height/2, barWidth * progress, barHeight, 5);
+        
+        // Show error count if any
+        if (loadingErrors > 0) {
+            fill(255, 0, 0);
+            textSize(14);
+            text(`${loadingErrors} errors`, width/2, height/2 + 40);
+        }
+    } else {
+        // Draw the calendar when loading is complete
+        drawCalendar();
+    }
 }
 
 function updateCalendar() {
@@ -128,13 +234,42 @@ function drawCell(x, y, dayData) {
     // Draw thumbnail if images exist
     if (dayData.images.length > 0) {
         const img = images[dayData.images[0]];
+        const thumbSize = cellSize * 0.7;
+        const thumbX = x + (cellSize - thumbSize)/2;
+        const thumbY = y - cellSize/2 + (cellSize - thumbSize)/2;
+        
         if (img) {
-            const thumbSize = cellSize * 0.7;
-            image(img, 
-                  x + (cellSize - thumbSize)/2, 
-                  y - cellSize/2 + (cellSize - thumbSize)/2, 
-                  thumbSize, 
-                  thumbSize);
+            // Display the image if successfully loaded
+            image(img, thumbX, thumbY, thumbSize, thumbSize);
+            
+            /* Indicate multiple images if available
+            if (dayData.images.length > 1) {
+                fill(0, 150, 255);
+                noStroke();
+                ellipse(x + cellSize - 12, y - cellSize/2 + 12, 16);
+                fill(255);
+                textAlign(CENTER, CENTER);
+                textSize(10);
+                text(dayData.images.length, x + cellSize - 12, y - cellSize/2 + 12);
+            }
+        } else {
+            // Show placeholder for missing images
+            fill(240);
+            rect(thumbX, thumbY, thumbSize, thumbSize);
+            
+            // Draw camera icon or warning
+            stroke(150);
+            strokeWeight(1);
+            line(thumbX + 10, thumbY + thumbSize/2, thumbX + thumbSize - 10, thumbY + thumbSize/2);
+            line(thumbX + thumbSize/2, thumbY + 10, thumbX + thumbSize/2, thumbY + thumbSize - 10);
+            
+            // Show number of images that should be here
+            fill(255, 100, 100);
+            noStroke();
+            textAlign(CENTER, BOTTOM);
+            textSize(10);
+            text(`${dayData.images.length} image(s)`, x + cellSize/2, y + cellSize/2 - 5);
+            strokeWeight(1);*/
         }
     }
 }
@@ -387,7 +522,28 @@ function showImage(filename, dayImages = []) {
 function updateModalImage(filename) {
     const modalImg = document.getElementById('modalImage');
     const imageInfo = document.querySelector('.image-date');
-    modalImg.src = 'jpegs/' + filename;
+    const modalError = document.getElementById('modalError') || createModalErrorElement();
+    
+    // Check if the image was successfully loaded
+    if (images[filename]) {
+        // Hide error message if it exists
+        modalError.style.display = 'none';
+        
+        // Show the image
+        modalImg.style.display = 'block';
+        modalImg.src = 'jpegs/' + filename;
+    } else {
+        // Show error message
+        modalError.style.display = 'block';
+        modalError.innerHTML = `
+            <div class="error-icon">⚠️</div>
+            <div class="error-message">Image "${filename}" failed to load</div>
+            <div class="error-suggestion">Try refreshing the page or checking the image file</div>
+        `;
+        
+        // Hide the image
+        modalImg.style.display = 'none';
+    }
     
     // Find image metadata and update info
     const metadata = imageMetadata.find(img => img.filename === filename);
@@ -399,5 +555,17 @@ function updateModalImage(filename) {
             month: 'long', 
             day: 'numeric' 
         });
+    } else {
+        imageInfo.textContent = filename;
     }
+}
+
+function createModalErrorElement() {
+    const modalContent = document.querySelector('.modal-content');
+    const errorElement = document.createElement('div');
+    errorElement.id = 'modalError';
+    errorElement.className = 'modal-error';
+    errorElement.style.cssText = 'display: none; color: #ff3333; text-align: center; padding: 20px; background: rgba(0,0,0,0.8); border-radius: 8px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1000;';
+    modalContent.appendChild(errorElement);
+    return errorElement;
 }
