@@ -104,7 +104,7 @@ function preload() {
     // Handle case where mediaMetadata is empty or not an array
     if (!Array.isArray(window.mediaMetadata) || window.mediaMetadata.length === 0) {
         console.log('No items in mediaMetadata, checking imageMetadata...');
-        // If mediaMetadata is empty, try to populate from imageMetadata
+        // If mediaMetadata is empty, check if imageMetadata exists
         if (typeof window.imageMetadata !== 'undefined' && Array.isArray(window.imageMetadata) && window.imageMetadata.length > 0) {
             console.log('Converting imageMetadata to mediaMetadata format...');
             // Create a temporary array for conversion
@@ -115,9 +115,31 @@ function preload() {
             // Assign to window.mediaMetadata
             window.mediaMetadata = convertedMetadata;
         } else {
-            console.error('No metadata available (neither mediaMetadata nor imageMetadata has content)');
-            showLoadingScreen = false;
-            return;
+            // Try to load imageMetadata.js dynamically if not already loaded
+            if (typeof window.imageMetadata === 'undefined') {
+                console.log('Attempting to load imageMetadata.js dynamically...');
+                const script = document.createElement('script');
+                script.src = 'js/imageMetadata.js';
+                script.onload = function() {
+                    if (typeof window.imageMetadata !== 'undefined' && Array.isArray(window.imageMetadata)) {
+                        console.log('Successfully loaded imageMetadata.js, converting to mediaMetadata format...');
+                        const convertedMetadata = window.imageMetadata.map(item => ({
+                            ...item,
+                            type: 'image'
+                        }));
+                        window.mediaMetadata = convertedMetadata;
+                        // Restart preload after loading metadata
+                        preload();
+                    }
+                };
+                document.head.appendChild(script);
+                // Return early to wait for script to load
+                return;
+            } else {
+                console.error('No metadata available (neither mediaMetadata nor imageMetadata has content)');
+                showLoadingScreen = false;
+                return;
+            }
         }
     }
     
