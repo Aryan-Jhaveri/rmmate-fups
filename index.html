@@ -51,7 +51,19 @@
         </div>
     </div>
 
-    <script src="js/imageMetadata.js"></script>
+    <!-- Load mediaMetadata.js first, and only load imageMetadata.js as fallback -->
+    <script>
+        function handleMediaMetadataError() {
+            console.warn('mediaMetadata.js not found, falling back to imageMetadata.js');
+            const fallbackScript = document.createElement('script');
+            fallbackScript.src = 'js/imageMetadata.js';
+            fallbackScript.onerror = function() {
+                console.error('Both metadata files are missing. Application may not work correctly.');
+            };
+            document.head.appendChild(fallbackScript);
+        }
+    </script>
+    <script src="js/mediaMetadata.js" onerror="handleMediaMetadataError()"></script>
     <script src="js/sketch.js"></script>
 </body>
 </html>

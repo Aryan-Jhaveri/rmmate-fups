@@ -5,63 +5,98 @@ import sys
 
 def parse_metadata_content(content):
     """Parse metadata content directly from string instead of file"""
-    image_data = []
-    current_image = None
+    media_data = []
+    current_media = None
     # Match both formats:
     # 1. Original EXIF: Date and Time | YYYY:MM:DD
     # 2. Filename extraction: Date and Time | YYYY:MM:DD HH:MM:SS
     date_pattern = r'Date and Time\s+\|(?:\s*)(\d{4}):(\d{2}):(\d{2})(?:[ ](\d{2}):(\d{2}):(\d{2}))?'
+    # Media type pattern
+    type_pattern = r'Type:\s+(image|video)'
 
     lines = content.splitlines()
         
     for line in lines:
         if line.startswith('=== Metadata for'):
-            if current_image:
-                image_data.append(current_image)
+            if current_media:
+                media_data.append(current_media)
             image_name = line.split('===')[1].strip().replace('Metadata for ', '').strip()
-            current_image = {'filename': image_name}
+            current_media = {
+                'filename': image_name,
+                'type': 'image'  # Default to image type if not specified
+            }
             
-            # If no EXIF tool is available, try to extract date from filename
-            if image_name and not any(ext in line for ext in ['exif', 'EXIF']):
-                match = re.match(r'(\d{4})(\d{2})(\d{2})_', image_name)
-                if match and not current_image.get('date'):
-                    year, month, day = map(int, match.groups())
-                    current_image['date'] = {
-                        'year': year,
-                        'month': month,
-                        'day': day
-                    }
+            # Try to extract date from filename if it matches the pattern
+            match = re.match(r'(\d{4})(\d{2})(\d{2})_', image_name)
+            if match:
+                year, month, day = map(int, match.groups())
+                current_media['date'] = {
+                    'year': year,
+                    'month': month,
+                    'day': day
+                }
+        elif line.startswith('Type:'):
+            # Extract media type (image or video)
+            match = re.search(type_pattern, line)
+            if match and current_media:
+                current_media['type'] = match.group(1)
         elif 'Date and Time' in line:
             match = re.search(date_pattern, line)
-            if match:
+            if match and current_media:
                 groups = match.groups()
                 if len(groups) >= 3:  # We have at least year, month, day
                     year, month, day = map(int, groups[0:3])
-                    current_image['date'] = {
+                    current_media['date'] = {
                         'year': year,
                         'month': month, 
                         'day': day
                     }
     
-    if current_image:
-        image_data.append(current_image)
+    if current_media:
+        media_data.append(current_media)
 
-    return image_data
+    return media_data
 
-def create_js_file(image_data, output_file):
+def create_js_file(media_data, output_file):
     # Ensure the directory exists
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
     
-    js_content = f"const imageMetadata = {json.dumps(image_data, indent=2)};"
+    # Create variable using 'window.' to avoid redeclaration issues
+    js_content = f"window.mediaMetadata = {json.dumps(media_data, indent=2)};"
     
     with open(output_file, 'w') as f:
         f.write(js_content)
     
-    print(f"Successfully created {output_file} with {len(image_data)} image entries")
+    # Count image and video files
+    image_count = sum(1 for item in media_data if item.get('type') == 'image')
+    video_count = sum(1 for item in media_data if item.get('type') == 'video')
+    
+    print(f"Successfully created {output_file} with {len(media_data)} media entries ({image_count} images, {video_count} videos)")
+    
+    # For backward compatibility, create imageMetadata.js with only image files
+    if image_count > 0:
+        image_only_data = [item for item in media_data if item.get('type') == 'image']
+        image_output_file = output_file.replace('mediaMetadata.js', 'imageMetadata.js')
+        
+        # Write imageMetadata.js without the 'type' field (for backward compatibility)
+        image_only_data_no_type = []
+        for item in image_only_data:
+            item_copy = item.copy()
+            if 'type' in item_copy:
+                del item_copy['type']
+            image_only_data_no_type.append(item_copy)
+            
+        # Use window to avoid redeclaration conflicts
+        image_js_content = f"window.imageMetadata = {json.dumps(image_only_data_no_type, indent=2)};"
+        
+        with open(image_output_file, 'w') as f:
+            f.write(image_js_content)
+        
+        print(f"Also created {image_output_file} with {len(image_only_data)} image entries (for backward compatibility)")
 
 if __name__ == "__main__":
     # Default output path (can be overridden by environment variables)
-    output_file = os.environ.get("OUTPUT_JS_FILE", "js/imageMetadata.js")
+    output_file = os.environ.get("OUTPUT_JS_FILE", "js/mediaMetadata.js")
     
     # Check if we're receiving data from stdin (piped from bash script)
     if not sys.stdin.isatty():
@@ -76,9 +111,9 @@ if __name__ == "__main__":
         with open(metadata_file, 'r') as f:
             metadata_content = f.read()
         
-    image_data = parse_metadata_content(metadata_content)
+    media_data = parse_metadata_content(metadata_content)
     
-    if not image_data:
-        print("Warning: No image metadata was extracted.")
+    if not media_data:
+        print("Warning: No media metadata was extracted.")
     
-    create_js_file(image_data, output_file)
+    create_js_file(media_data, output_file)

@@ -234,6 +234,55 @@ body {
     background: rgba(255, 255, 255, 0.3);
 }
 
+/* Banner Styles */
+.banner {
+    border-radius: var(--radius-sm);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.banner:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.banner-standard {
+    background-color: rgba(65, 105, 225, 0.7);
+    color: white;
+}
+
+.banner-important {
+    background-color: rgba(220, 20, 60, 0.7);
+    color: white;
+}
+
+.banner-info {
+    background-color: rgba(46, 139, 87, 0.7);
+    color: white;
+}
+
+.banner-celebration {
+    background-color: rgba(255, 165, 0, 0.7);
+    color: black;
+}
+
+.banner-warning {
+    background-color: rgba(255, 69, 0, 0.7);
+    color: white;
+}
+
+/* Media type icons styling */
+.media-type {
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 1.1em;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     body {
@@ -266,5 +315,10 @@ body {
         right: 20px;
         top: 10px;
         font-size: 32px;
+    }
+    
+    /* Smaller banners on mobile */
+    .banner {
+        font-size: 12px;
     }
 }
