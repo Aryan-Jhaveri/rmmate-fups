@@ -100,47 +100,24 @@ function loadVideo(filename) {
 }
 
 function preload() {
-    // Always use window.mediaMetadata to avoid variable conflicts
+    // Initialize window.mediaMetadata if it doesn't exist
+    if (typeof window.mediaMetadata === 'undefined') {
+        console.log('Initializing empty mediaMetadata array');
+        window.mediaMetadata = [];
+    }
+    
     // Handle case where mediaMetadata is empty or not an array
     if (!Array.isArray(window.mediaMetadata) || window.mediaMetadata.length === 0) {
-        console.log('No items in mediaMetadata, checking imageMetadata...');
-        // If mediaMetadata is empty, check if imageMetadata exists
-        if (typeof window.imageMetadata !== 'undefined' && Array.isArray(window.imageMetadata) && window.imageMetadata.length > 0) {
-            console.log('Converting imageMetadata to mediaMetadata format...');
-            // Create a temporary array for conversion
-            const convertedMetadata = window.imageMetadata.map(item => ({
-                ...item,
-                type: 'image' // Add type field
-            }));
-            // Assign to window.mediaMetadata
-            window.mediaMetadata = convertedMetadata;
-        } else {
-            // Try to load imageMetadata.js dynamically if not already loaded
-            if (typeof window.imageMetadata === 'undefined') {
-                console.log('Attempting to load imageMetadata.js dynamically...');
-                const script = document.createElement('script');
-                script.src = 'js/imageMetadata.js';
-                script.onload = function() {
-                    if (typeof window.imageMetadata !== 'undefined' && Array.isArray(window.imageMetadata)) {
-                        console.log('Successfully loaded imageMetadata.js, converting to mediaMetadata format...');
-                        const convertedMetadata = window.imageMetadata.map(item => ({
-                            ...item,
-                            type: 'image'
-                        }));
-                        window.mediaMetadata = convertedMetadata;
-                        // Restart preload after loading metadata
-                        preload();
-                    }
-                };
-                document.head.appendChild(script);
-                // Return early to wait for script to load
-                return;
-            } else {
-                console.error('No metadata available (neither mediaMetadata nor imageMetadata has content)');
-                showLoadingScreen = false;
-                return;
-            }
-        }
+        console.log('No items in mediaMetadata, trying to create empty placeholder...');
+        
+        // Just use an empty array to avoid errors
+        window.mediaMetadata = [];
+        
+        // Set up the application to continue with empty data
+        console.log('Proceeding with empty metadata - will attempt to load data later');
+        
+        // Try to load metadata in the background
+        loadMetadataInBackground();
     }
     
     // Count total media files to track loading progress
@@ -448,16 +425,21 @@ function getMediaTypeIcon(filename) {
 }
 
 function getMediaForDate(year, month, day) {
-    // Always use window.mediaMetadata to avoid variable conflicts
-    // Use the mediaMetadata array if available, fallback to imageMetadata
-    const metadataSource = (typeof window.mediaMetadata !== 'undefined' && Array.isArray(window.mediaMetadata)) 
-        ? window.mediaMetadata 
-        : (typeof window.imageMetadata !== 'undefined' && Array.isArray(window.imageMetadata)) 
-            ? window.imageMetadata 
-            : [];
+    // Make sure we have a valid metadata source and avoid referencing undefined variables
+    let metadataSource = [];
     
+    // First try using mediaMetadata, which should always be defined by this point
+    if (Array.isArray(window.mediaMetadata)) {
+        metadataSource = window.mediaMetadata;
+    } 
+    // As a safety measure only, don't directly reference imageMetadata unless we know it exists
+    else if (typeof window.imageMetadata !== 'undefined' && Array.isArray(window.imageMetadata)) {
+        metadataSource = window.imageMetadata;
+    }
+    
+    // Filter out items for this date
     return metadataSource.filter(item => 
-        item.date &&
+        item && item.date &&
         item.date.year === year &&
         item.date.month === month &&
         item.date.day === day
@@ -500,6 +482,65 @@ function closeModal() {
     }
     
     setTimeout(() => modal.style.display = 'none', 300);
+}
+
+// Function to load metadata files in the background
+function loadMetadataInBackground() {
+    console.log('Attempting to load metadata files in background...');
+    
+    // Try to load mediaMetadata.js first
+    const mediaScript = document.createElement('script');
+    mediaScript.src = 'js/mediaMetadata.js';
+    
+    mediaScript.onload = function() {
+        console.log('Successfully loaded mediaMetadata.js');
+        if (Array.isArray(window.mediaMetadata) && window.mediaMetadata.length > 0) {
+            console.log('Found valid mediaMetadata data, refreshing display...');
+            updateCalendar();
+            showLoadingScreen = false;
+        } else {
+            // If mediaMetadata didn't work, try imageMetadata
+            tryLoadImageMetadata();
+        }
+    };
+    
+    mediaScript.onerror = function() {
+        console.warn('Failed to load mediaMetadata.js, trying imageMetadata.js instead');
+        tryLoadImageMetadata();
+    };
+    
+    document.head.appendChild(mediaScript);
+}
+
+// Helper function to try loading imageMetadata.js
+function tryLoadImageMetadata() {
+    const imageScript = document.createElement('script');
+    imageScript.src = 'js/imageMetadata.js';
+    
+    imageScript.onload = function() {
+        console.log('Successfully loaded imageMetadata.js');
+        if (typeof window.imageMetadata !== 'undefined' && Array.isArray(window.imageMetadata) && window.imageMetadata.length > 0) {
+            console.log('Converting imageMetadata to mediaMetadata format...');
+            // Create a temporary array for conversion
+            const convertedMetadata = window.imageMetadata.map(item => ({
+                ...item,
+                type: 'image' // Add type field
+            }));
+            // Assign to window.mediaMetadata
+            window.mediaMetadata = convertedMetadata;
+            
+            // Refresh the display
+            console.log('Updating calendar with new metadata...');
+            updateCalendar();
+            showLoadingScreen = false;
+        }
+    };
+    
+    imageScript.onerror = function() {
+        console.error('Both metadata files failed to load. Application may not work correctly.');
+    };
+    
+    document.head.appendChild(imageScript);
 }
 
 // Function to banners for demonstration
@@ -927,12 +968,17 @@ function updateModalMedia(filename) {
         `;
     }
     
-    // Find media metadata and update info - always use window to avoid variable conflicts
-    const metadataSource = (typeof window.mediaMetadata !== 'undefined' && Array.isArray(window.mediaMetadata)) 
-        ? window.mediaMetadata 
-        : (typeof window.imageMetadata !== 'undefined' && Array.isArray(window.imageMetadata)) 
-            ? window.imageMetadata 
-            : [];
+    // Find media metadata and update info - avoid directly referencing possibly undefined variables
+    let metadataSource = [];
+    
+    // First try using mediaMetadata, which should always be defined by this point
+    if (Array.isArray(window.mediaMetadata)) {
+        metadataSource = window.mediaMetadata;
+    } 
+    // Only check imageMetadata if we know it exists
+    else if (typeof window.imageMetadata !== 'undefined' && Array.isArray(window.imageMetadata)) {
+        metadataSource = window.imageMetadata;
+    }
     
     const metadata = metadataSource.find(item => item.filename === filename);
     if (metadata && metadata.date) {
